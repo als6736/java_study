@@ -5,6 +5,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         String A = "굳다이노";
         System.out.println(A);
+        System.out.println("new branch");
         sc.close();
 
     }
