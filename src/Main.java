@@ -13,9 +13,12 @@ public class Main {
          * 7. 5번째 줄 공백 0개 별 9개 출력이후 줄어들기
          */
         int a = sc.nextInt();
-        for (int i = 0; i<2*a;i++){
-            for(int j = a;j>0;j--){
+        for (int i = 1; i<=a;i++){
+            for(int j = 1;j<=a-i;j++){
                 System.out.print(" ");
+            }
+            for(int k = 1; k<=(2*i-1);k++){
+                System.out.print("*");
             }
             System.out.println();
 
